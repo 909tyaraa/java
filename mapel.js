@@ -7,7 +7,7 @@ app.use(express.json())
 // JSON is String
 
 app.post("/mapel", (request, response) => {
-    let nilai = request.body.nilai
+     let nilai= request.body.nilai
     let lulus = [], tidaklulus = []
     let nilai_math = 0, nilai_english = 0
 
